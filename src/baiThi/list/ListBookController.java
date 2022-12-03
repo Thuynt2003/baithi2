@@ -36,7 +36,7 @@ public class ListBookController {
         Parent listScene = FXMLLoader.load(getClass().getResource("../add/addBookRecords.fxml"));
         Scene sc = new Scene(listScene,1280,800);
         rootStage.setTitle("ADDBook");
-        rootStage.setScene(sc);git commit -m "first commit"
+        rootStage.setScene(sc);
     }
 
     public void back(ActionEvent actionEvent) throws IOException {
