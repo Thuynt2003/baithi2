@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="baiThi.home.HomeController">
+   <children>
+      <Text layoutX="252.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button onAction="#addBook" layoutX="186.0" layoutY="137.0" mnemonicParsing="false" text="Add Book Records">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button onAction="#listBook" layoutX="190.0" layoutY="235.0" mnemonicParsing="false" text="List Book Records">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

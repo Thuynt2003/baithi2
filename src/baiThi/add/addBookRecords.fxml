@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.0" prefWidth="606.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Text layoutX="208.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add book records">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text layoutX="78.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID Book :">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text layoutX="73.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name Book :">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text layoutX="78.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Author :">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <Text layoutX="78.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price :">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <TextField layoutX="297.0" layoutY="119.0" promptText="ID Book">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="297.0" layoutY="179.0" promptText="Name Book">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="297.0" layoutY="235.0" promptText="Author">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="297.0" layoutY="292.0" promptText="Price">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextField>
+        <Button layoutX="460.0" layoutY="365.0" mnemonicParsing="false" text="Save">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button layoutX="27.0" layoutY="61.0" mnemonicParsing="false" text="Back">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+    </children>
+</Pane>
+

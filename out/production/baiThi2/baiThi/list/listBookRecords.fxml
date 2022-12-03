@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="616.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="baiThi.list.ListBookController">
+    <children>
+        <Text layoutX="199.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="List Book Records">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Text>
+        <TableView fx:id="tb" layoutX="48.0" layoutY="107.0" prefHeight="288.0" prefWidth="520.0">
+            <columns>
+                <TableColumn fx:id="clid" prefWidth="107.0" text="BOOK ID" />
+                <TableColumn fx:id="clname" prefWidth="194.0" text="BOOK NAME" />
+                <TableColumn fx:id="clAuthor" prefWidth="116.0" text="AUTHOR" />
+                <TableColumn fx:id="clPrice" prefWidth="101.0" text="PRICE" />
+            </columns>
+        </TableView>
+        <Button onAction="#add" layoutX="495.0" layoutY="59.0" mnemonicParsing="false" text="Add Book" />
+        <Button onAction="#back" layoutX="522.0" layoutY="410.0" mnemonicParsing="false" text="Exit">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="48.0" layoutY="59.0" mnemonicParsing="false" text="Back" />
+    </children>
+</Pane>
